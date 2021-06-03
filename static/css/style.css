@@ -1,0 +1,94 @@
+*{
+  transition: .5s;
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+h2{
+  color: #001a49;
+}
+.img-fluid{
+  width: 80%;
+}
+.icon {
+  background-color: #e9327c;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+}
+.icon i {
+  font-size: 55px;
+  padding-top: 15px;
+  color: white;
+}
+
+.input-field {
+  border: none;
+  border-radius: 0%;
+  border-bottom: 1px solid #001a49;
+}
+
+.input-field:focus {
+  border: none;
+  border-radius: 0%;
+  border-bottom: 1px solid #e9327c;
+  box-shadow: none;
+}
+
+.link{
+  color: #e9327c;
+}
+.link:hover{
+  color: #001a49;
+}
+.btn-primary-login{
+  background-color: #e9327c;
+  color: white;
+  width: 100%;
+}
+.btn-primary-login:hover{
+  background-color: #001a49;
+  color: white;
+  width: 100%;
+}
+
+.invalid{
+  background: #ff8a7e;
+  border: 1px solid #ff433f;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  padding: 10px;
+}
+.valid{
+  background: #7eff8b;
+  border: 1px solid #2ffa32;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  padding: 10px;
+  color: #0c4128;
+}
+@media (max-width: 767px) {
+  .hide {
+    display: none;
+  }
+  .icon {
+    background-color: #e9327c;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    margin: auto;
+  }
+  .icon i {
+    font-size: 35px;
+    padding-top: 15px;
+    color: white;
+  }
+}
